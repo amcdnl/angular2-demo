@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "suppressImplicitAnyIndexErrors": true,
+    "suppressExcessPropertyErrors": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "declaration": true,
+    "listFiles": false,
+    "noEmitOnError": false
+  },
+  "files": [
+    "./src/bootstrap.ts",
+    "./src/config.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}

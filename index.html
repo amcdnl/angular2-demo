@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-framework="angular2">
+	<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+    <base href="">
+		<title>Heather and Austin</title>
+    
+    <!-- Top load CSS -->
+    <link rel="stylesheet" href="dist/common/common.css">
+		<link rel="stylesheet" href="dist/common/grid.css">
+		<link rel="stylesheet" href="dist/common/parallax/parallax.css">
+		<link rel="stylesheet" href="dist/app/app.css">
+		<link rel="stylesheet" href="dist/app/header/header.css">
+    <link rel="stylesheet" href="dist/app/rsvp/rsvp.css">
+		
+		<!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<app>
+      <!-- CSS Loader -->
+      <div class="loader">
+        <div class="spinnerBlock">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </app>
+    
+    <!-- Load polyfills and SystemJS -->
+    <script src="https://code.angularjs.org/2.0.0-beta.6/angular2-polyfills.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-shim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.17/system.js"></script>
+    
+    <!-- Configure SystemJS, do this before below or errors -->
+		<script src="dist/config.js"></script>
+
+    <!-- Finish loading Angular -->
+    <script src="https://code.angularjs.org/2.0.0-beta.6/Rx.min.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.6/angular2.js"></script>
+    
+    <!-- Import our app -->
+		<script>
+			System.import('bootstrap').then(null, console.error.bind(console));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "name": "angular2-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=5.5.0"
+  },
+  "scripts": {
+    "setup": "npm install -g browser-sync typescript@next typings node-sass && typings install",
+    "clean": "rm -rf dist && mkdir dist",
+    "build": "npm run clean && npm run build:ts && npm run build:sass",
+    "build:ts": "tsc",
+    "build:sass": "node-sass -o dist/ src/",
+    "build:css": "postcss --use autoprefixer dist/*.css -d dist/",
+    "watch": "npm run clean && concurrent \"npm run watch:ts\" \"npm run watch:sass\"",
+    "watch:ts": "tsc --watch",
+    "watch:sass": "npm run build:sass && node-sass -o dist/ -w src/",
+    "dev": "concurrent \"npm run watch\" \"browser-sync start --server --files 'dist/**/*.css, index.html, dist/**/*.js'\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amcdnl/angular2-demo.git"
+  },
+  "author": "Austin McDaniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcdnl/angular2-demo/issues"
+  },
+  "homepage": "https://github.com/amcdnl/angular2-demo#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "systemjs": "^0.19.17",
+    "zone.js": "0.5.14"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "browser-sync": "^2.11.1",
+    "concurrently": "^1.0.0",
+    "flexboxgrid": "^6.3.0",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.14",
+    "tslint": "^3.4.0-dev.1",
+    "typescript": "^1.9.0-dev.20160215"
+  }
+}
