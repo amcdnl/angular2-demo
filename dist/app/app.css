@@ -1,0 +1,53 @@
+/**
+ * Parallax Custom Styles
+ */
+parallax.bg0 .bg {
+  height: 100vh;
+  background-image: url(../../assets/header.jpg); }
+
+parallax.bg1 .bg {
+  background-image: url(../../assets/header2.jpg); }
+
+parallax.bg2 .bg {
+  background-image: url(../../assets/header3.jpg); }
+
+parallax.bg3 .bg {
+  background-image: url(../../assets/header4.jpg); }
+
+parallax.bg4 .bg {
+  background-image: url(../../assets/header5.jpg); }
+
+/**
+ * Section Styles
+ */
+section {
+  background-color: #fff; }
+  section .inner {
+    text-align: center;
+    padding: 100px 8%;
+    max-width: 960px;
+    margin: 0 auto; }
+    section .inner h3 {
+      font-size: 32px;
+      line-height: 1.2em;
+      text-transform: none;
+      text-decoration: none;
+      letter-spacing: 0;
+      font-weight: 400;
+      font-style: normal;
+      margin: 1em 0 .5em;
+      color: #1c1c1c; }
+      section .inner h3 img {
+        display: block;
+        text-align: center;
+        margin: 0 auto; }
+    section .inner h4 {
+      font-size: 22px;
+      text-transform: none;
+      text-decoration: none;
+      padding: 0;
+      margin: 0; }
+  section.where-section h3 {
+    margin-bottom: 25px; }
+  section.where-section .desaturate {
+    border: solid 5px #000; }

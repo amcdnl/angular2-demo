@@ -1,0 +1,79 @@
+header {
+  background-color: #fff;
+  width: 100%;
+  z-index: 8001;
+  display: block;
+  position: fixed;
+  transition: all 100ms linear 100ms; }
+  header.scrolled {
+    background-color: #f5f5f5; }
+    header.scrolled .inner {
+      padding: 15px 80px; }
+    header.scrolled h1, header.scrolled a {
+      font-size: 90%; }
+  header .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 80px;
+    vertical-align: middle; }
+  header h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 1em;
+    z-index: 8002;
+    position: relative; }
+  header nav {
+    text-align: right;
+    vertical-align: middle; }
+    header nav ul, header nav li {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+    header nav ul {
+      font-size: 12px;
+      text-align: right;
+      line-height: 1em; }
+      header nav ul li {
+        display: inline-block;
+        text-align: right;
+        margin: 0 0 0 30px; }
+        header nav ul li a {
+          font-family: 'Josefin Sans', sans-serif;
+          color: #c4c4c4;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 400;
+          cursor: pointer; }
+          header nav ul li a.active, header nav ul li a:hover {
+            color: #1c1c1c; }
+
+/**
+ * Mobile Devices ( Phones )
+ */
+@media (max-width: 768px) {
+  header h1 {
+    text-align: center; }
+  header nav {
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle; }
+    header nav ul {
+      text-align: center; }
+      header nav ul li {
+        line-height: 15px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 0 0 10px; }
+        header nav ul li:after {
+          content: "-";
+          text-indent: -5px; }
+        header nav ul li:last-child:after {
+          content: ""; } }

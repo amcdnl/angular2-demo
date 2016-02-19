@@ -1,0 +1,149 @@
+/**
+ * Common Styles
+ */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #363636;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0;
+  margin: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  color: #6598b8;
+  text-decoration: none; }
+
+h1, h2, h3, h4 {
+  font-family: 'Josefin Sans', sans-serif; }
+  h1 small, h2 small, h3 small, h4 small {
+    font-size: 60%; }
+
+.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+[hidden] {
+  display: none !important; }
+
+/**
+ * Loader Styles
+ */
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+  .loader .spinnerBlock {
+    animation: rotate 600ms linear 600ms infinite;
+    transform-origin: center;
+    display: block;
+    height: 50px;
+    width: 50px; }
+  .loader span {
+    display: block;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .loader span:nth-child(1) {
+      border-color: #eee; }
+    .loader span:nth-child(2) {
+      left: -18px;
+      top: 10px; }
+    .loader span:nth-child(3) {
+      left: -18px;
+      top: -10px; }
+    .loader span:nth-child(4) {
+      left: 0;
+      top: -18px; }
+    .loader span:nth-child(5) {
+      left: 18px;
+      top: -10px; }
+    .loader span:nth-child(6) {
+      left: 18px;
+      top: 10px; }
+    .loader span:nth-child(7) {
+      left: 0;
+      top: 18px; }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/**
+ * Fade in effect
+ * http://cssnerd.com/2012/04/03/jquery-like-pure-css3-image-fade-in/
+ */
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+.fadeIn-3s {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.fadeIn-5s {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s; }
+
+.fadeIn-Delay-3s {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.fadeIn-Delay-5s {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
