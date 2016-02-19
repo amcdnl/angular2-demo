@@ -26,18 +26,20 @@ command | description
 
 ## Component Tree
 
+Below outlines a tree of how the components are arranged in the Angular2 component tree.
+
 ![component tree](http://content.screencast.com/users/amcdaniel22/folders/Snagit/media/9b704eb7-dd83-413b-88c0-605c93c26691/tree.png)
 
 ## File Structure
 
-The folder structure is aimed to encapsulate components into their own modules. In each component folder, it contains all the html, css, js for that.  Components that are not coupled to this application are grouped into a common folder for reuse.
+The folder structure is aimed to encapsulate components into their own modules. In each component folder, it contains all the html, css, js for that component. Components that are not coupled to this application are grouped into a common folder for reuse.
 
 ```
 /src
-  /app
-    /header
-    /rsvp
-  /common
-    /parallax
-    /utils
+  /app -- root component
+    /header -- header component
+    /rsvp -- rsvp component
+  /common -- utilities and components that are reusable
+    /parallax -- parallax component
+    /utils -- misc utilities
 ```
