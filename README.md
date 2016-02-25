@@ -7,8 +7,6 @@ A minimal Angular2 demo site using:
 - NPM Build
 - SASS
 
-The demonstration was a project to learn Angular2 while teaching my [beautiful fiancée](https://www.linkedin.com/in/hpiernick) how to code our wedding website; I hope you enjoy!
-
 ## Commands
 
 command | description
@@ -28,7 +26,7 @@ command | description
 
 Below outlines a tree of how the components are arranged in the Angular2 component tree.
 
-![component tree](http://content.screencast.com/users/amcdaniel22/folders/Snagit/media/9b704eb7-dd83-413b-88c0-605c93c26691/tree.png)
+![component tree](http://content.screencast.com/users/amcdaniel22/folders/Snagit/media/1a70d1e6-a97f-4b2a-afcc-562f78979e91/2016-02-25_18-45-09.png)
 
 ## File Structure
 
@@ -43,3 +41,7 @@ The folder structure is aimed to encapsulate components into their own modules. 
     /parallax -- parallax component
     /utils -- misc utilities
 ```
+
+## Credits
+
+The demonstration was a project to learn Angular2 while teaching my [beautiful fiancée](https://www.linkedin.com/in/hpiernick) how to code our wedding website; I hope you enjoy! The project was presented at SFL Code Conference, for slides [click here])(http://slides.com/austinmcdaniel/angular-2/).
