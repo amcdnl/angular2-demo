@@ -44,4 +44,4 @@ The folder structure is aimed to encapsulate components into their own modules. 
 
 ## Credits
 
-The demonstration was a project to learn Angular2 while teaching my [beautiful fiancée](https://www.linkedin.com/in/hpiernick) how to code our wedding website; I hope you enjoy! The project was presented at SFL Code Conference, for slides [click here])(http://slides.com/austinmcdaniel/angular-2/).
+The demonstration was a project to learn Angular2 while teaching my [beautiful fiancée](https://www.linkedin.com/in/hpiernick) how to code our wedding website; I hope you enjoy! The project was presented at SFL Code Conference, for slides [click here](http://slides.com/austinmcdaniel/angular-2/).
