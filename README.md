@@ -7,6 +7,8 @@ A minimal Angular2 demo site using:
 - NPM Build
 - SASS
 
+You can see the a running demo [here](http://amcdnl.github.io/angular2-demo).
+
 ## Commands
 
 command | description
