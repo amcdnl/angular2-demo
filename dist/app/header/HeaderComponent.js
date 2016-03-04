@@ -80,7 +80,7 @@ System.register(['angular2/core', '../../common/utils/utils'], function(exports_
                     core_1.Component({
                         selector: 'main-header',
                         template: "\n    <header [class]=\"headerClass\">\n      <div class=\"inner\">\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <div class=\"box\"><h1>{{names}}</h1></div>\n          </div>\n          <div class=\"col-md-8\">\n            <div class=\"box\">\n              </div>\n          </div>\n        </div>\n      </div>\n    </header>\n  "
-                    }), 
+                      }), 
                     __metadata('design:paramtypes', [core_1.ElementRef])
                 ], HeaderComponent);
                 return HeaderComponent;
