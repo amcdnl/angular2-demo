@@ -37,8 +37,8 @@ The folder structure is aimed to encapsulate components into their own modules. 
 ```
 └── src
     └── app           -- root     component
-        ├── header    -- header   component
-        └── rsvp      -- rsvp     component 
+    │   ├── header    -- header   component
+    │   └── rsvp      -- rsvp     component 
     └── common        -- root     component
         ├── parallax  -- parallax component
         └── utils     -- misc     utilities
