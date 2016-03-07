@@ -35,13 +35,13 @@ Below outlines a tree of how the components are arranged in the Angular2 compone
 The folder structure is aimed to encapsulate components into their own modules. In each component folder, it contains all the html, css, js for that component. Components that are not coupled to this application are grouped into a common folder for reuse.
 
 ```
-/src
-  /app -- root component
-    /header -- header component
-    /rsvp -- rsvp component
-  /common -- utilities and components that are reusable
-    /parallax -- parallax component
-    /utils -- misc utilities
+└── src
+    └── app           -- root     component
+    │   ├── header    -- header   component
+    │   └── rsvp      -- rsvp     component 
+    └── common        -- root     component
+        ├── parallax  -- parallax component
+        └── utils     -- misc     utilities
 ```
 
 ## Credits
