@@ -9,6 +9,8 @@ A minimal Angular2 demo site using:
 
 You can see the a running demo [here](http://amcdnl.github.io/angular2-demo).
 
+**NOTE: THIS PROJECT HAS NOT BEEN UPDATED TO NG2 RC5+, THERE ARE SOME MAJOR CHANGES BETWEEN THE VERSION THIS PROJECT USES AND THAT RELEASE. I DO PLAN TO UPDATE TIME PERMITTING.**
+
 ## Commands
 
 command | description
